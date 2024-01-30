@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(34 34 34);
+    color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color:#fff
+
+}
+
+.title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+main {
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+   font-size: 56px;
+   line-height: 10px;
+}
+
+a:hover
+ {
+    color: rgb(16, 220, 235);
+    transition: 0.3s;
+}
+
+
+
+
+.roxo {
+    color: rgb(16, 220, 235)
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+}
+
+.btn {
+ 
+    border: 2px solid rgb(16, 220, 235);
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.btn:hover
+{
+   color:#fff;
+   background-color: rgb(16, 220, 235);
+}
+
+form{ 
+display:flex;
+ flex-direction: column;
+
+}
+
+input {
+
+    padding: 5px;
+    border-radius: 16px;
+    border: none;
+    margin-top: 10px;
+    height: 35px;
+}
+
+.real-btn 
+{
+  width: 50%;
+  color: white;
+  background-color: rgb(16, 220, 235);
+}
+
+img
+{
+    margin-left: 132px;
+}
+
+@media screen and (max-width: 768px) {
+    
+header {
+    flex-direction: column;
+}
+
+main
+{
+    flex-direction: column;
+    
+} 
+
+form {
+
+    margin: 0 auto;
+    width: 70%;
+}
+
+.real-btn {
+
+    align-self: center;
+}
+
+ul {text-align: center;}
+
+
+img{display: none;}
+
+h2 {text-align: justify;}
+
+p{text-align: justify;}
+}

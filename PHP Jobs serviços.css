@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Open+Sans:wght@300&display=swap');
+
+
+body {margin: 0 auto;
+      padding: 0;
+      background-color: rgb(34 34 34);
+      color: #fff;
+      font-family: 'Times New Roman', Times, serif;
+      max-width: 1200px;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     max-width: 1200px;
+}
+
+span{
+      color: rgb(16, 220, 235);
+  }
+  
+  h1 {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-size: 58px;
+      
+}
+
+   .subtitle-1 {text-align: center;
+               font-family: Roboto;
+               font-size: 23px;
+               margin-top: 0;
+      
+   }
+
+   .card {
+
+     border: solid 3px;
+     color: #fff ;
+     border-color: black;
+   background-color: rgb(34 34 34);
+   width: 270px;
+    height: 430px;
+    margin: 20px;
+  
+  text-align: center;
+}
+
+
+
+
+
+.cards {
+margin-top: 150px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+}
+
+img {width: 255px;
+height: 255px;
+
+
+}
+
+.card-text {font-family: Lato;
+text-align: center;
+padding: 6px;
+}
+
+.card-button {border-radius: 8px;
+border: none;
+width: 100px;
+margin-top: 18px;
+height: 30px;
+font-family: Lato;
+cursor: pointer;
+}
+
+.card-button:hover 
+{
+      color: white;
+      background-color: black;
+      transition: 0.3s;
+}

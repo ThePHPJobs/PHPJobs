@@ -1,0 +1,46 @@
+body {
+background-color: rgb(34 34 34);
+margin: 0 auto;
+color: #fff;
+max-width: 1200px;
+
+}
+
+span{
+    color: rgb(16, 220, 235);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 58px;
+ }
+
+ h2
+  {margin-top: 100px;
+ font-size: 30px;
+ }
+
+ p {
+    
+    font-size: 17px;
+}
+
+.mvv {
+      
+ul {list-style-type: none;}
+
+}
+
+.vdg {
+
+    line-height: 25px;
+
+}
+
+.Valores {
+
+    ul {list-style-type: initial;}
+    max-width: 750px;
+}
