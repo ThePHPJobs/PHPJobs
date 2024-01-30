@@ -125,7 +125,8 @@ ul {text-align: center;}
 
 img{display: none;}
 
-h2 {text-align: justify;}
+h2 {text-align: justify;
+   text-size: 38px;}
 
 p{text-align: justify;}
 }
